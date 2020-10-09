@@ -1,0 +1,19 @@
+{
+    "name": "dujo/random-quote-generator",
+    "description": "Voorbeeld van een composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vanduren",
+            "email": "dujo@summacollege.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "RandomQuotes\\": "src/"
+        }
+    },
+    "require": {}
+}
