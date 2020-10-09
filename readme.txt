@@ -14,3 +14,12 @@ alle packages waar jouw package van afhankelijk is moeten ook die stability hebb
 5. kies type (library voor classes), license, dependencies
 6. Voeg nog een autoload property toe (zie composer.json)
 hierin geef je aan waar moet worden gezocht naar de class (namespace en pad)
+
+7. Maak een github repo aan en push code naar github
+8. Maak account aan op https://packagist.org/
+9. kies submit vanuit menu (en submit de repo link (zonder .git))
+10.  Create new release (in github aaan rechterkant in code scherm)
+11. Maak release nummer en andere info en update in packagist.org
+12. Kopieer commando in packagist om te testen
+13. maak nieuw lokaal map en geef commando
+14. test de code met behulp van het voorbeeld
