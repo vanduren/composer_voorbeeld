@@ -22,4 +22,13 @@ hierin geef je aan waar moet worden gezocht naar de class (namespace en pad)
 11. Maak release nummer en andere info en update in packagist.org
 12. Kopieer commando in packagist om te testen
 13. maak nieuw lokaal map en geef commando
-14. test de code met behulp van het voorbeeld
+14. test de code (maak test.php)met behulp van volgende code:
+<?php
+
+use RandomQuotes\RandomQuotes;
+
+require_once('./vendor/autoload.php');
+$myQuote = new \RandomQuotes\RandomQuotes;
+print_r($myQuote->generate());
+
+15. test met php test.php
